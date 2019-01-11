@@ -1,0 +1,36 @@
+Package: nflscrapRvalidation
+Type: Package
+Title: Demonstrate ideas for changes to nflscrapR and validate that functionality is unchanged
+Version: 0.1.0
+Authors@R: c(
+    person("Maksim", "Horowitz", role = c("aut", "cre"), email = "maksim.horowitz@gmail.com"),
+		person("Ron", "Yurko", role = c("aut"), email = "ryurko21@gmail.com"),
+		person("Samuel", "Ventura", role = c("aut"), email = "samventura22@gmail.com"))
+Author: Michael Metzler
+Maintainer: Michael Metzler <bballmike823@gmail.com>
+Description: This is a framework for demonstrating ideas to speed of nflscrapR.
+Depends: R (>= 3.5.0)
+Imports: nflscrapR (>= 1.8.1),
+         RJSONIO (>= 1.3.0),
+         nnet (>= 7.3.12),
+         RCurl (>= 1.95.4.11),
+         stringr (>= 1.3.1),
+         lubridate (>= 1.7.4),
+         dplyr (>= 0.7.7),
+         reshape (>= 0.8.7),
+         reshape2 (>= 1.4.3),
+         scrapeR (>= 0.1.6),
+         DT (>= 0.4),
+         gridExtra (>= 2.3),
+         mgcv (>= 1.8.23),
+         rvest (>= 0.3.2),
+         purrr (>= 0.2.5),
+         hashmap (>= 0.2.2),
+         assertthat (>= 0.2.0),
+         tidyr,
+         tictoc,
+         microbenchmark
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
